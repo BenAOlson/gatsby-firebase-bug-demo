@@ -1,10 +1,13 @@
 import React from 'react'
-// These imports cause compilation error:
+
+/*
+  All of this seems to be fine...
+*/
+
 import 'firebase/messaging'
 // import 'firebase/analytics'
 // import 'firebase/performance'
 
-// These imports work fine:
 // import 'firebase/firestore'
 // import 'firebase/functions'
 
