@@ -1,10 +1,11 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+import React from 'react'
+// These imports cause compilation error:
+import 'firebase/messaging'
+// import 'firebase/analytics'
+// import 'firebase/performance'
 
-import React from "react"
-import "firebase/messaging"
+// These imports work fine:
+// import 'firebase/firestore'
+// import 'firebase/functions'
 
 export const wrapRootElement = ({ element }) => <>{element}</>
