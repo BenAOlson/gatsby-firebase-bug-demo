@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "firebase": "^7.9.3",
-    "gatsby": "^2.19.28",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
